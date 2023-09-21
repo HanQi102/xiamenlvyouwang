@@ -1,0 +1,1126 @@
+/* 清除默认边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/shouye/bg.jpg) no-repeat center top;
+}
+
+.box {
+    width: 100%;
+}
+
+/* 黑色背景 */
+.samllBox1 {
+    width: 100%;
+    height: 32px;
+    background-color: #111111;
+}
+
+/* 蓝色背景 */
+.samllBox2 {
+    width: 100%;
+    height: 70px;
+    background-color: #002B49;
+}
+
+.black {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.blue {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+/* 语言列表浮动 */
+.black>.language>ul {
+    float: right;
+}
+
+.samllBox1>.black>.language li {
+    float: left;
+}
+
+.samllBox1>.black>.language span {
+    line-height: 35px;
+}
+
+/* 语言列表浮动 */
+.black>.language>ul>li>a {
+    display: inline-block;
+    height: 25px;
+    width: 80px;
+}
+
+/* 精灵图悬浮变色 */
+.samllBox1>.black>.language li:nth-of-type(1) {
+    background: url(../images/shouye/lag.png) no-repeat 0px 0px;
+}
+
+.samllBox1>.black>.language li:nth-of-type(2) {
+    background: url(../images/shouye/lag.png) no-repeat 0px -34px;
+}
+
+.samllBox1>.black>.language li:nth-of-type(3) {
+    background: url(../images/shouye/lag.png) no-repeat 0px -69px;
+}
+
+.samllBox1>.black>.language li:nth-of-type(4) {
+    background: url(../images/shouye/lag.png) no-repeat 0px -103px;
+
+}
+
+
+.samllBox1>.black>.language li:nth-of-type(1):hover {
+    background: url(../images/shouye/lag.png) no-repeat -80px 0px;
+}
+
+.samllBox1>.black>.language li:nth-of-type(2):hover {
+    background: url(../images/shouye/lag.png) no-repeat -80px -34px;
+}
+
+.samllBox1>.black>.language li:nth-of-type(3):hover {
+    background: url(../images/shouye/lag.png) no-repeat -80px -69px;
+}
+
+.samllBox1>.black>.language li:nth-of-type(4):hover {
+    background: url(../images/shouye/lag.png) no-repeat -80px -103px;
+}
+
+/* 导航栏图标 */
+.samllBox2>.blue>.head>a>img {
+    float: left;
+    margin-top: -32px;
+}
+
+/* 天气图标 */
+.weather {
+    width: 80px;
+    height: 32px;
+    background-color: #008ACE;
+    margin-left: 20px;
+}
+
+.weather>img {
+    margin-top: 8px;
+    margin-right: 3px;
+    float: left;
+    height: 18px;
+    text-align: center;
+}
+
+.weather>span {
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+}
+
+
+.samllBox2>.blue>.head {
+    background-color: #002B49;
+    clear: both;
+}
+
+.samllBox2>.blue>.head>ul {
+    list-style: none;
+}
+
+/* 导航栏 浮动 */
+.samllBox2>.blue>.head>ul>li {
+    float: left;
+    line-height: 70px;
+    padding: 0 20px;
+}
+
+.samllBox2>.blue>.head>ul>li>a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.viscidity {
+    background-color: #008ACE;
+}
+
+.viscidity>ul {
+    list-style: none;
+}
+
+.viscidity>ul>li {
+    line-height: 20px;
+    margin: 0 0 20px 20px;
+}
+
+.viscidity>ul>li>a {
+    color: white;
+
+}
+
+.viscidity {
+    width: 160px;
+    display: none;
+    position: absolute;
+}
+
+.viscidity>ul>li:nth-of-type(1) :hover {
+    padding: 0 5px;
+}
+
+.viscidity>ul>li:nth-of-type(2) :hover {
+    padding: 0 5px;
+}
+
+.viscidity>ul>li:nth-of-type(3) :hover {
+    padding: 0 5px;
+}
+
+.viscidity>ul>li:nth-of-type(4) :hover {
+    padding: 0 5px;
+}
+
+.viscidity>ul>li:nth-of-type(5) :hover {
+    padding: 0 5px;
+}
+
+.viscidity>ul>li:nth-of-type(6) :hover {
+    padding: 0 5px;
+}
+
+.viscidity>ul>li:nth-of-type(7) :hover {
+    padding: 0 5px;
+}
+
+.viscidity>ul>li:nth-of-type(8) :hover {
+    padding: 0 5px;
+}
+
+.samllBox2>.blue>.head>ul>li> {
+    position: relative;
+}
+
+.suspend:hover .viscidity {
+    display: block;
+}
+
+/* 背景图片加文字 */
+.bigbox {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    background: url(../images/shouye/bpic.jpg) no-repeat center top;
+}
+
+.top {
+    width: 1230px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.typeArea {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.typeArea>p {
+    float: right;
+    color: white;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+/* 主体 */
+.content {
+    width: 1230px;
+    border-top: 10px;
+    margin: 0 auto;
+    clear: both;
+}
+
+/* 厦门旅游  */
+.typeArea2 {
+    width: 1230px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+.typeArea2>.tour {
+    width: 220px;
+    height: 320px;
+    background-color: #00416C;
+    padding-right: 10px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.typeArea2>.tour>h3 {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 20px;
+    color: #7DC7FA;
+    margin-left: 20px;
+
+}
+
+.typeArea2>.tour>ul {
+    list-style: none;
+}
+
+.typeArea2>.tour>ul>li {
+    padding: 10px 30px;
+    background: url(../images/shouye/ql_dot.png) no-repeat 16px center;
+
+}
+
+.typeArea2>.tour>ul>li>a {
+
+    color: white;
+}
+
+.typeArea2>.tour>ul>li>a:hover {
+    color: #7DC7FA;
+}
+
+.typeArea2>.tour>ul>li:first-child {
+    border-top: 1px solid #476376;
+}
+
+/* <!-- 轮播图 --> */
+/* .typeArea2>.picture {
+    width: 690px;
+    height: 320px;
+    background: url(../images/shouye/qmy.jpg) no-repeat;
+    float: left;
+    margin-top: 5px 10px;
+} */
+
+
+/* 轮播图 */
+.swiper {
+    width: 690px;
+    height: 320px;
+    margin: 0 auto;
+    float: left;
+    margin: 5px 10px;
+}
+
+.swiper-slide a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper .my-bullet {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 6px;
+    transform: translateX(200px);
+    color: white;
+}
+
+.swiper .my-bullet-active {
+    background-color: #003666;
+}
+
+
+.typeArea2>.message {
+    width: 290px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.typeArea2>.message>div>h3 {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    border-bottom: 3px solid #1D7AAE;
+}
+
+.typeArea2>.message>div>a:hover {
+    color: #1D7AAE;
+}
+
+.typeArea2>.message>div>a>i {
+    float: right;
+    margin-right: 10px;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.typeArea2>.message>ul {
+    height: 286px;
+    background-color: white;
+    list-style: none;
+    border-top: 3px solid #1D7AAE;
+}
+
+.typeArea2>.message>ul>li {
+    margin: 15px;
+    font-size: 14px;
+    padding-left: 10px;
+    background: url(../images/shouye/sm_arrow.png) no-repeat 0px center;
+}
+
+.typeArea2>.message>ul>li>a {
+    color: #191919;
+}
+
+.typeArea2>.message>ul>li>a:hover {
+    color: #37d2ea;
+    text-decoration: underline;
+}
+
+/*   <!-- 精品线路导航栏 --> */
+.bigLine>.samllLine {
+    width: 890px;
+    height: 30px;
+    padding: 20px;
+    background-color: #0062A5;
+    clear: both;
+}
+
+#li {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.bigLine>.samllLine>ul {
+    list-style: none;
+}
+
+.bigLine>.samllLine>ul>li {
+    float: left;
+    font-weight: bold;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.bigLine>.samllLine>a:last-child {
+    float: right;
+    color: white;
+    margin-top: 5px;
+}
+
+.bigLine>.samllLine>a:last-child :hover {
+    color: rgb(148, 198, 245);
+}
+
+.bigLine>.samllLine>ul>li>a {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.bigLine>.line>.right1:hover #discolor {
+    color: #13b4dc;
+}
+
+.bigLine>.samllLine>ul>li:nth-of-type(2) {
+    background-color: #FFDF5E;
+
+}
+
+.bigLine>.samllLine>ul>li:nth-of-type(3) {
+    background-color: #60BDFE;
+    border-radius: 5px;
+}
+
+.bigLine>.samllLine>ul>li:nth-of-type(4) {
+    background-color: #9CE280;
+    border-radius: 5px;
+}
+
+.bigLine>.samllLine>ul>li:nth-of-type(5) {
+    background-color: #45D2C1;
+    border-radius: 5px;
+}
+
+.bigLine>.samllLine>ul>li:nth-of-type(6) {
+    background-color: #FEA7CA;
+    border-radius: 5px;
+}
+
+.bigLine>.samllLine>ul>li:nth-of-type(2) :hover {
+    background-color: #003960;
+    border-radius: 5px;
+}
+
+.bigLine>.samllLine>ul>li:nth-of-type(3) :hover {
+    background-color: #003960;
+    border-radius: 5px;
+}
+
+.bigLine>.samllLine>ul>li:nth-of-type(4) :hover {
+    background-color: #003960;
+    border-radius: 5px;
+}
+
+.bigLine>.samllLine>ul>li:nth-of-type(5) :hover {
+    background-color: #003960;
+    border-radius: 5px;
+}
+
+.bigLine>.samllLine>ul>li:nth-of-type(6) :hover {
+    background-color: #003960;
+    border-radius: 5px;
+}
+
+.line>.right1 {
+    width: 287px;
+    height: 368px;
+}
+
+/*   <!-- 旅游向导 --> */
+.samllRight1 {
+    height: 126px;
+    padding: 0 15px;
+    background-color: #D1E7F4;
+
+}
+
+.line {
+    width: 930px;
+    height: 428px;
+    float: left;
+}
+
+.right1 {
+    float: left;
+}
+
+.line>.right1>a>.samllRight1>span {
+    display: inline;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+#discolor {
+    color: #606060;
+}
+
+.line>.right1>a>.samllRight1>span>i:nth-of-type(1) {
+    font-size: 30px;
+    color: #0061A4;
+}
+
+.line>.right1>a>.samllRight1>span:nth-of-type(3) {
+    font-size: 12px;
+    display: block;
+}
+
+.line>.right1>a>.samllRight1>a>img {
+    margin-top: 50px;
+}
+
+.line>.right1 span:nth-of-type(3):hover {
+    color: #008ACE;
+}
+
+
+
+.content1 {
+    width: 643px;
+    height: 368px;
+    float: left;
+    background-color: white;
+
+}
+
+.line>.content1>ul {
+    list-style: none;
+
+}
+
+.line>.content1>ul>li {
+    width: 595px;
+    height: 100px;
+    margin: 12px 15px;
+}
+
+.line>.content1>ul>li:nth-of-type(2) {
+    border-top: 1px dotted #7e7e7e;
+    border-bottom: 1px dotted #7a7a7a;
+    padding: 10px 0;
+}
+
+.line>.content1>ul>li>a>img {
+    width: 160px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.line>.content1>ul>li .ztys {
+    font-size: 30px;
+    color: #54A7E3;
+}
+
+.line>.content1>ul>li>a {
+    display: inline-block;
+    width: 595px;
+    height: 100px;
+    color: #555555;
+    font-weight: bold;
+
+}
+
+.line>.content1>ul>li>a>p {
+    color: #949494;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.line>.content1>ul>li:hover {
+    background-color: #F5F5F5;
+}
+
+
+.bigLine>.left1 {
+    width: 290px;
+    float: right;
+    margin-top: -70px;
+}
+
+.bigLine>.left1>ul {
+    list-style: none;
+    font-size: 0;
+    float: left;
+}
+
+.bigLine>.left1>ul>li:nth-of-type(2) {
+    margin: 15px 0;
+}
+
+/* 旅游向导 */
+.guide {
+    width: 1230px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.guide>h1 {
+    color: #454545;
+    text-align: center;
+    background: url(../images/shouye/tit-line.png) no-repeat center 20px;
+    margin-bottom: 30px;
+}
+
+.guide1 {
+    width: 230px;
+    background-color: white;
+    float: left;
+    margin: 0 8px;
+}
+
+.guide1>.guideImg {
+    width: 230px;
+    height: 279px;
+}
+
+
+.guideDiv ul {
+    list-style: none;
+    font-size: 12px;
+}
+
+.guideDiv a {
+    color: #454545;
+}
+
+.guideDiv a:hover {
+    color: #26ace1;
+}
+
+.guideUl {
+    height: 80px;
+    position: relative;
+}
+
+.guideDiv>.guide1>.guideUl>ul>li {
+    width: 63px;
+    float: left;
+    margin: 5px 20px;
+    background: url(../images/shouye/sm_dot.png) no-repeat 0px center;
+    padding-left: 10px;
+}
+
+#guideUlid1 {
+    width: 108px;
+}
+
+#guideUlid2 {
+    width: 72px;
+}
+
+.icon1 {
+    width: 52px;
+    height: 52px;
+    background: url(../images/shouye/tg_arrow.png) no-repeat 0px 0px;
+    position: absolute;
+    left: -50px;
+    top: 200px;
+    z-index: 99;
+}
+
+.icon1:hover {
+    background: url(../images/shouye/tg_arrow.png) no-repeat 0px -52px;
+    z-index: 99;
+
+}
+
+.icon2 {
+    width: 52px;
+    height: 52px;
+    background: url(../images/shouye/tg_arrow.png) no-repeat -57px 0px;
+    position: absolute;
+    /* left: -50px;
+    top: 200px; */
+    right: -50px;
+    top: 200px;
+    z-index: 99;
+
+}
+
+.icon2:hover {
+    background: url(../images/shouye/tg_arrow.png) no-repeat -57px -52px;
+    z-index: 99;
+
+}
+
+
+.guideUl>h3 {
+    position: absolute;
+    top: -260px;
+    left: 20px;
+    color: white;
+}
+
+
+/* 热门推荐 */
+.recom {
+    width: 1230px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.recom>h1 {
+    color: #454545;
+    text-align: center;
+    background: url(../images/shouye/tit-line.png) no-repeat center 50px;
+    padding: 30px 0;
+}
+
+.recom>.recomUl>ul {
+    list-style: none;
+}
+
+.recom>.recomUl>ul>li {
+
+    float: left;
+    font-size: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.recom>.recomUl>ul>li:nth-of-type(4) {
+    margin-right: 0;
+}
+
+.recom>.recomUl>ul>li:last-child {
+    margin-right: 0;
+}
+
+.recom>.recomUl>ul>li:hover {
+    filter: brightness(60%);
+}
+
+.recomUl>.h31 {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    color: white;
+}
+
+.recomUl>.h32 {
+    position: absolute;
+    top: 300px;
+    left: 510px;
+    color: white;
+}
+
+.recomUl>.h33 {
+    position: absolute;
+    top: 300px;
+    right: 315px;
+    color: white;
+}
+
+.recomUl>.h34 {
+    position: absolute;
+    top: 300px;
+    right: 124px;
+    color: white;
+}
+
+.recomUl>.h35 {
+    position: absolute;
+    top: 540px;
+    left: 20px;
+    color: white;
+}
+
+.recomUl>.h36 {
+    position: absolute;
+    top: 540px;
+    left: 265px;
+    color: white;
+}
+
+.recomUl>.h37 {
+    position: absolute;
+    top: 540px;
+    left: 510px;
+    color: white;
+}
+
+.recomUl>.h38 {
+    position: absolute;
+    top: 540px;
+    right: 315px;
+    color: white;
+}
+
+.recomUl>.h39 {
+    position: absolute;
+    top: 540px;
+    right: 124px;
+    color: white;
+}
+
+/* 游记攻略 */
+.strategy {
+    height: 500px;
+}
+
+.strategy>h1 {
+    color: #454545;
+    text-align: center;
+    background: url(../images/shouye/tit-line.png) no-repeat center 50px;
+    padding-top: 30px;
+}
+
+.strategy>h3 {
+    color: #666666;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 0 15px 0;
+}
+
+.strategy>a>i>h3 {
+    color: #689be8;
+    text-align: center;
+    font-weight: 400;
+}
+
+.strategy>a>i>h3:hover {
+    color: #313131;
+}
+
+.strategy>.strategyUl>ul {
+    list-style: none;
+}
+
+.strategy>.strategyUl>ul>li>img {
+    border-radius: 50%;
+}
+
+.strategy>.strategyUl>ul>li {
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.strategy>.strategyUl>ul>li:last-child {
+    margin-right: 0;
+}
+
+.strategy>.strategyUl>ul>li>div {
+    position: absolute;
+    bottom: -1px;
+    right: 16px;
+    text-align: center;
+}
+
+.strategy>.strategyUl>ul>li>.strategyP {
+    position: absolute;
+    bottom: 35px;
+    right: 110px;
+    margin-bottom: 3px;
+}
+
+.strategy>.strategyUl>ul>li>.span {
+    color: #7a7a7a;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    right: 120px;
+}
+
+.strategy>.strategyUl>ul>li>#tow {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    margin-bottom: 3px;
+}
+
+.strategy>.strategyUl>ul>li>#four {
+    position: absolute;
+    bottom: 50px;
+    right: 76px;
+    margin-bottom: 3px;
+}
+
+.strategy>.strategyUl>ul>li:hover p {
+    color: #13b4dc;
+}
+
+/* 底部 */
+
+.bigbuttom {
+    width: 100%;
+    height: 242px;
+    background-color: #282828;
+    padding-top: 40px;
+}
+
+
+.bottom>.left {
+    width: 400px;
+    color: white;
+    position: relative;
+    float: left;
+}
+
+.bottom>.left>.div1 {
+    width: 200px;
+}
+
+.bottom>.left>.div1>p {
+    margin-top: 10px;
+}
+
+.bottom>.left>.div2>p {
+    font-size: 12px;
+    text-align: center;
+    color: #818181;
+}
+
+.bottom>.left>.div2 {
+    position: absolute;
+    right: 80px;
+    top: 7px;
+}
+
+.bottom>.centre {
+    width: 400px;
+    padding: 10px 10px;
+    float: left;
+    border-left: 1px solid #929292;
+    border-right: 1px solid #929292;
+
+}
+
+.bottom>.centre>div>h3 {
+    color: #008ACE;
+    padding-left: 10px;
+}
+
+.bottom>.centre>ul {
+    list-style: none;
+
+}
+
+.bottom>.centre>ul>li {
+    width: 74px;
+    height: 24px;
+    float: left;
+    margin-right: 20px;
+    padding-left: 10px;
+    background: url(../images/shouye/sm_dot.png) no-repeat 0px center;
+}
+
+.bottom>.centre>ul>li>a {
+    color: white;
+    font-size: 12px;
+
+}
+
+.bottom>.centre>ul>li>a:hover {
+    color: #989898;
+}
+
+.bottom>.centre>ul>li:nth-of-type(2) {
+    width: 200px;
+}
+
+.bottom>.centre>ul>li:last-child {
+    width: 120px;
+}
+
+.bottom>.right {
+    width: 400px;
+    height: 164px;
+    padding: 10px 0;
+    float: left;
+}
+
+.bottom>.right>div>h3 {
+    color: #008ACE;
+    padding-left: 40px;
+}
+
+.bottom>.right>.email>.samllEmail1>p {
+    font-size: 18px;
+    padding: 15px 80px;
+    color: #525252;
+    background: url(../images/shouye/ico_mail.png) no-repeat 50px center;
+}
+
+.bottom>.right>.email>.samllEmail1 {
+
+    position: relative;
+}
+
+.bottom>.right>.email>.samllEmail1>img {
+    position: absolute;
+    right: 360px;
+    bottom: 23px;
+}
+
+.bottom>.right>.email>.samllEmail2 {
+    /* background: url(../images/shouye/footSmall.png) no-repeat 50px 0px; */
+    background-size: 120px;
+    padding: 0px 36px;
+}
+
+.bottom>.right>.email>.samllEmail2 {
+    width: 400px;
+    height: 50px;
+    padding-left: 50px;
+    background: url(../images/shouye/arrow_bottom.png) no-repeat 35px 10px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div0 {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding-left: 5px;
+    background: url(../images/shouye/arrow_bottom.png) no-repeat 1px 1px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div1 {
+    background: url(../images/shouye/footSmall.png) no-repeat 0px 0px;
+    background-size: 200px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div1:hover {
+    background: url(../images/shouye/footSmall.png) no-repeat 0px 0px;
+    background-size: 200px;
+    margin-top: -5px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div2 {
+    background: url(../images/shouye/footSmall.png) no-repeat -40px 0px;
+    background-size: 200px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div2:hover {
+    background: url(../images/shouye/footSmall.png) no-repeat -40px 0px;
+    background-size: 200px;
+    margin-top: -5px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div3 {
+    background: url(../images/shouye/footSmall.png) no-repeat -80px 0px;
+    background-size: 200px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div3:hover {
+    background: url(../images/shouye/footSmall.png) no-repeat -80px 0px;
+    background-size: 200px;
+    margin-top: -5px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div4 {
+    background: url(../images/shouye/footSmall.png) no-repeat -120px 0px;
+    background-size: 200px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div4:hover {
+    background: url(../images/shouye/footSmall.png) no-repeat -120px 0px;
+    background-size: 200px;
+    margin-top: -5px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div5 {
+    background: url(../images/shouye/footSmall.png) no-repeat -160px 0px;
+    background-size: 200px;
+}
+
+.bottom>.right>.email>.samllEmail2>.div5:hover {
+    background: url(../images/shouye/footSmall.png) no-repeat -160px 0px;
+    background-size: 200px;
+    margin-top: -5px;
+}
+
+.bigbuttom>.content>div {
+    position: relative;
+}
+
+.bigbuttom>.content>div>.end {
+    width: 1230px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #696969;
+    position: absolute;
+    bottom: -250px;
+    left: 0px;
+}
+
+.bigbuttom>.content>div>.end>a {
+    color: white;
+}
+
+.bigbuttom>.content>div>.end>a:hover {
+    color: rgb(111, 111, 111);
+}
+
+.bigbuttom>.content>div>.end>span {
+    color: rgb(111, 111, 111);
+}

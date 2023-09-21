@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 背景图片 */
+.box {
+    width: 100%;
+    background: url(../images/faxianjinmen/index_banner.jpg) no-repeat center top;
+    background-color: #B5D5E0;
+}
+
+/* 版心 */
+.content {
+    width: 980px;
+    /* height: 1430px; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.contentDiv {
+    height: 525px;
+}
+
+/* 天气图标 */
+.contentDiv>.weather {
+    width: 920px;
+    height: 430px;
+    position: relative;
+}
+
+.contentDiv>.weather>img {
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* 导航栏 */
+.contentDiv>.nav>ul {
+    width: 1000px;
+    height: 60px;
+    background: url(../images/faxianjinmen/导航栏.png)no-repeat center 0px;
+}
+
+/* .contentDiv>.nav>ul>li {
+    margin: 17px -65px 0px 130px;
+    float: left;
+} */
+.contentDiv>.nav>ul>li {
+    margin: 17px -60px 0px 110px;
+    float: left;
+}
+
+/* <!-- 导航栏 --> */
+.contentDiv>.nav>ul>li>a {
+    display: inline-block;
+    height: 25px;
+    width: 120px;
+}
+
+.contentDiv>.nav>ul>li:nth-of-type(1) {
+    width: 70px;
+    background: url(../images/faxianjinmen/nav01_off.png) no-repeat 0px 0px;
+}
+
+.contentDiv>.nav>ul>li:nth-of-type(2) {
+    width: 130px;
+    background: url(../images/faxianjinmen/nav02_off.png) no-repeat 0px 0px;
+}
+
+.contentDiv>.nav>ul>li:nth-of-type(3) {
+    width: 120px;
+    background: url(../images/faxianjinmen/nav03_off.png) no-repeat 0px 0px;
+}
+
+.contentDiv>.nav>ul>li:nth-of-type(4) {
+    width: 120px;
+    background: url(../images/faxianjinmen/nav05_off.png) no-repeat 0px 0px;
+}
+
+.contentDiv>.nav>ul>li:nth-of-type(5) {
+    width: 120px;
+    background: url(../images/faxianjinmen/nav07_off.png) no-repeat 0px 0px;
+}
+
+.contentDiv>.nav>ul>li:nth-of-type(1) a:hover {
+    background: url(../images/faxianjinmen/nav01_on.png)no-repeat 0px 0px;
+}
+
+.contentDiv>.nav>ul>li:nth-of-type(2) :hover {
+    background: url(../images/faxianjinmen/nav02_on.png)no-repeat 0px 0px;
+}
+
+.contentDiv>.nav>ul>li:nth-of-type(3) :hover {
+    background: url(../images/faxianjinmen/nav03_on.png)no-repeat 0px 0px;
+}
+
+.contentDiv>.nav>ul>li:nth-of-type(4) :hover {
+    background: url(../images/faxianjinmen/nav05_on.png)no-repeat 0px 0px;
+}
+
+.contentDiv>.nav>ul>li:nth-of-type(5) :hover {
+    background: url(../images/faxianjinmen/nav07_on.png)no-repeat 0px 0px;
+}
+
+/* 主体 */
+.contentDiv1 {
+    height: 240px;
+    padding-top: 10px;
+    background-color: white;
+    padding-left: 25px;
+}
+
+.contentDiv1>.left>a>img {
+    width: 520px;
+    height: 240px;
+    float: left;
+}
+
+.contentDiv1>.right {
+    width: 390px;
+    height: 240px;
+    background-color: #E3EFFF;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+
+.contentDiv1>.right>h3 {
+    font-size: 16px;
+    color: #3B527F;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+.contentDiv1>.right>a {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 12px;
+    color: #3B527F;
+}
+
+.contentDiv1>.right>a:hover {
+    color: #008ACE;
+}
+
+.contentDiv1>.right>ul {
+    padding: 10px;
+}
+
+.contentDiv1>.right>ul>li {
+    padding-left: 25px;
+    margin: 10px 0;
+    background: url(../images/faxianjinmen/箭头1.png) no-repeat 5px;
+}
+
+.contentDiv1>.right>ul>li>a {
+    font-size: 12px;
+    color: #415375;
+}
+
+.contentDiv1>.right>ul>li>a:hover {
+    color: #173644;
+}
+
+.contentDiv1>.right>ul>li>span {
+    float: right;
+    font-size: 12px;
+    color: gray;
+}
+
+/* <!-- 主题之旅 --> */
+
+.contentDiv2 {
+    width: 520px;
+    height: 260px;
+    background-color: white;
+    margin-top: 10;
+    padding-left: 25px;
+    /* display: inline-block; */
+    float: left;
+}
+
+.contentDiv2>.left {
+    width: 255px;
+    position: relative;
+    float: left;
+}
+
+.contentDiv2>.left>h3 {
+    font-size: 16px;
+    color: #ef3211;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 15px;
+
+}
+
+.contentDiv2>.left>a {
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    font-size: 12px;
+    color: #3B527F;
+}
+
+.contentDiv2>.left>a:hover {
+    color: #008ACE;
+}
+
+.contentDiv2>.left li {
+    padding-left: 30px;
+    font-size: 12px;
+    margin: 10px 0;
+    background: url(../images/faxianjinmen/红色方块.png) no-repeat 5px center;
+}
+
+.contentDiv2>.left span {
+    color: gray;
+}
+
+
+.contentDiv2>.left>ul>li>a {
+    color: #4d4d4d;
+}
+
+.contentDiv2>.left>ul>li>a:hover {
+    color: #202020;
+}
+
+.contentDiv2>.mid {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+/* <!-- 景区推荐 --> */
+
+.contentDiv3 {
+    padding: 10px 25px 0 0;
+    height: 250px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.contentDiv3>.right {
+    width: 390px;
+    height: 250px;
+    position: relative;
+    float: right;
+    margin-left: 15px;
+    background-color: #EBF5C3;
+}
+
+.contentDiv3>.right>h3 {
+    font-size: 16px;
+    color: #887b78;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 15px;
+
+}
+
+.contentDiv3>.right>a {
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    font-size: 12px;
+    color: #3B527F;
+}
+
+.contentDiv3>.right>a:hover {
+    color: #008ACE;
+}
+
+.contentDiv3>.right>.left {
+    width: 170px;
+    height: 220px;
+    margin-left: 30px;
+    float: left;
+}
+
+.contentDiv3>.right>.right {
+    width: 170px;
+    height: 220px;
+    float: left;
+    margin-left: 10px;
+}
+
+.contentDiv3>.right p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contentDiv3>.right span {
+    font-size: 12px;
+    color: gray;
+}
+
+.contentDiv3>.right img {
+    width: 170px;
+    height: 100px;
+}
+
+
+/* 背景透明度 */
+.contentDiv3>.right>div:hover {
+    filter: brightness(80%);
+}
+
+/* 底部 */
+
+.buttom {
+    width: 980px;
+    height: 105px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #1B6680;
+    font-size: 12px;
+    padding-top: 10px;
+    color: white;
+    line-height: 30px;
+    /* position: relative; */
+}
+
+
+.buttom a {
+    font-size: 12px;
+    padding-top: 10px;
+    color: white;
+}
+
+.buttom a:hover {
+    text-decoration: underline;
+}
